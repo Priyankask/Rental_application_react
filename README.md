@@ -1,5 +1,20 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## How to run this project
+
+create `dev.js` file in `server/config` with contents of:
+
+```javascript
+module.exports = {
+    DB_URI: 'your_mongo_connection_string',
+    JWT_SECRET: 'some_unique_value!'
+    }
+```
+In the base folder of the project run `npm install` and then `npm start` to start the dev server
+
+To run the api server , navigate to the `server` folder and run `node index.js`
+
+
 ## Available Scripts
 
 In the project directory, you can run:
